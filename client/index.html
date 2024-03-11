@@ -19,7 +19,45 @@
       <label for="animal-1">Animal: </label>
       <input type="text" name="animal-1" id="animal-1">
       <br>
-      
+       <label for="animal-2">Another Animal:</label>
+       <input type="text" required id="animal-2" name="animal-2">
+       <br>
+       <label for="animal-3">One more animal: </label>
+       <input type="text" required id="animal-3" name="animal-3">
+       <br>
+       <label for="adj-1">Adjective (ends in -ed):</label>
+       <input type="text" require id="adj-1" name="adj-1">
+       <br>
+       <label for="verb-1">Verb (ends in -ing):</label>
+       <input type="text" required id="verb-1" name="verb-1">
+       <br>
+       <label for="num-1">Number:</label>
+       <input type="number" required id="num-1" name="num-1">
+       <br>
+       <span>Yes or No:</span>
+       <input type="radio" id="Yes" name="answer" value="Yes" required>
+       <label for="Yes">Yes</label>       
+       <input type="radio" name="answer" id="No" required>
+      <label for="No">No</label>
+      <br>
+      <label for="speed">Relative speed (ends in -er):</label>
+      <select name="speed" id="speed" required>
+        <option value="fast">fast</option>
+        <option value="slow">slow</option>
+        <option value="super-slow">super-slow</option>
+      </select>
+      <br>
+      <label for="quote">Motivational quote:</label>
+      <input type="text" id="quote" name="quote" ,required list="quote-choices">
+      <datalist id="quote-choices">
+        <option value="Do or do not, there is no try"></option>
+        <option value="fuggetaboutit"></option>
+        <option value="trust the force"></option>
+      </datalist>
+      <br>
+      <label for="message">Meaningful message:</label>
+      <textarea id="message" name="message" required rows="8" cols="40"></textarea>
+      <br>
       <input type="submit" value="Form My Story!">
      
     </form>
