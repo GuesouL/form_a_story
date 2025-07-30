@@ -57,3 +57,8 @@ moralMessage.innerHTML = `<span class="italics" title="id: message">"${message}"
 //guesso test run
 
 //second test run
+
+function sayHello () {
+  console.log('here is a function');
+  return 'complete';
+}
