@@ -62,3 +62,9 @@ function sayHello () {
   console.log('here is a function');
   return 'complete';
 }
+
+//another funciton test here
+
+function workalready () {
+  return void;
+}
